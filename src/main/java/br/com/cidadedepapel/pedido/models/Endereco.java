@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-@Entity
+@Entity(name = "fornecedor_endereco")
 public class Endereco {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
